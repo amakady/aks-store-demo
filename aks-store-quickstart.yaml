@@ -179,7 +179,7 @@ spec:
           image: ghcr.io/azure-samples/aks-store-demo/product-service:2.2.0
           ports:
             - containerPort: 3002
-          env:
+#          env:
 #            - name: AI_SERVICE_URL
 #             value: "http://ai-service:5001/"
           resources:
